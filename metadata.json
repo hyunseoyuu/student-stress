@@ -1,0 +1,6 @@
+{
+  "name": "학업 번아웃 & 스트레스 케어",
+  "description": "학업 소진과 회의감을 자가진단하고, AI 맞춤 솔루션과 가이드를 제공하는 자가치유 서비스입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", "Playfair Display", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-green: #7D8F69;
+  --color-brand-green-hover: #6B7B59;
+  --color-bg-base: #FDFBF7;
+  --color-text-primary: #3E362E;
+  --color-text-secondary: #7A7167;
+  --color-text-muted: #A4907C;
+  --color-border-warm: #E8E2D6;
+  --color-border-warm-light: #F2EDE4;
+  --color-bg-warm-tint: #F5F1E9;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+}
